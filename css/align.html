@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Align Html</title>
+    <style>
+      p {
+        width: 600px;
+        border: darkblue solid 2px;
+        padding: 20px;
+        /* align contents to center */
+        margin: auto;
+        /* text alignment */
+        text-align: center;
+        display: none;
+      }
+      img {
+        width: 300px;
+        height: 450px;
+        display: block;
+        /* margin-left: auto;
+        margin-right: auto; */
+        margin: 0px auto 0px auto; /* margin: top right bottom left; */
+        border-radius: 30px;
+      }
+      #second {
+        background-color: darkgoldenrod;
+        position: absolute; /* top, right, bottom, left*/
+        right: 0px;
+      }
+    </style>
+  </head>
+  <body>
+    <div>
+      <p>
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minus saepe
+        accusantium itaque minima possimus earum iste eos fugit totam aliquid,
+        corrupti, voluptatum repudiandae! Obcaecati eveniet cupiditate ipsa?
+        Totam, quod omnis corrupti porro officia consequuntur suscipit eum? Aut
+        pariatur inventore, odit deserunt corporis quia atque eos, incidunt
+        quidem ducimus, quibusdam alias?
+      </p>
+      <section>
+        <img src="/tintin.jpg" alt="tintin" />
+      </section>
+      <p id="second">
+        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Suscipit quam
+        commodi fugit? Quisquam deleniti non fuga dolores, quibusdam delectus
+        earum!
+      </p>
+    </div>
+  </body>
+</html>

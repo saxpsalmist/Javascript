@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Links</title>
+    <style>
+      a {
+        color: blue;
+        /* text-decoration: none; */
+      }
+      /* #visited:visited {
+        color: green;
+      }
+
+      #hover:hover {
+        color: rgb(105, 105, 105);
+        text-decoration: underline;
+        border: slateblue solid 2px dotted;
+        padding: 32px;
+      } */
+
+      a:visited {
+        color: green;
+      }
+
+      a:hover {
+        color: rgb(105, 105, 105);
+        text-decoration: none;
+        /* padding: 32px; */
+      }
+
+      #pointer {
+        color: blue;
+        text-decoration: underline;
+      }
+      #pointer:hover {
+        cursor: grabbing;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Links</h1>
+    <p>This is a web page of blue links</p>
+    <div>
+      <p>
+        <a id="unvisited" href="#">Unvisited</a>
+      </p>
+      <p>
+        <a id="visited" href="https://google.com" target="blank">Visited</a>
+      </p>
+      <p>
+        <a id="hover" href="#">Hover</a>
+      </p>
+      <p>
+        <a id="selected" href="#">Selected</a>
+      </p>
+      <p id="pointer">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla, qui!
+      </p>
+    </div>
+  </body>
+</html>

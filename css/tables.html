@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tables</title>
+    <style>
+      tr:nth-child(even) {
+        background-color: #44753f;
+      }
+
+      table {
+        display: block;
+      }
+      p {
+        border: green solid 2px;
+        max-width: 500px;
+      }
+
+      #static {
+        position: static;
+      }
+
+      .square {
+        width: 200px;
+        height: 200px;
+      }
+      #color1 {
+        background-color: royalblue;
+        z-index: 1;
+        opacity: 0.5;
+      }
+      #color2 {
+        background-color: crimson;
+        position: absolute;
+        left: 100px;
+        bottom: 40px;
+        z-index: -1;
+      }
+      #color3 {
+        background-color: rgb(20, 220, 177);
+        position: absolute;
+        left: 100px;
+        bottom: 40px;
+        z-index: 2;
+      }
+    </style>
+  </head>
+  <body>
+    <h2>LiveScores</h2>
+    <p>
+      Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptate
+      obcaecati facere ipsum, ipsam vitae voluptas error. Illo fugit sequi
+      pariatur consectetur, dolorum iure reprehenderit amet quibusdam,
+      distinctio placeat asperiores eius consequuntur nulla necessitatibus
+      ducimus repudiandae, cum dignissimos. Non, maxime laudantium. Saepe optio
+      quisquam ipsa nemo necessitatibus! Molestiae impedit odio perspiciatis!
+    </p>
+    <table>
+      <thead>
+        <!-- Table header -->
+        <th>Club</th>
+        <th>Scores</th>
+        <th>Date</th>
+      </thead>
+      <tbody>
+        <!-- Table content -->
+        <tr>
+          <td>Man-U vs Liv</td>
+          <td>0 - 5</td>
+          <td>24/10/2021</td>
+        </tr>
+        <tr>
+          <td>Barca vs Madrid</td>
+          <td>2 - 1</td>
+          <td>25/10/2021</td>
+        </tr>
+        <tr>
+          <td>Barca vs Madrid</td>
+          <td>2 - 1</td>
+          <td>25/10/2021</td>
+        </tr>
+        <tr>
+          <td>Barca vs Madrid</td>
+          <td>2 - 1</td>
+          <td>25/10/2021</td>
+        </tr>
+        <tr>
+          <td>Barca vs Madrid</td>
+          <td>2 - 1</td>
+          <td>25/10/2021</td>
+        </tr>
+      </tbody>
+      <tfoot></tfoot>
+    </table>
+    <p id="static">
+      Lorem ipsum, dolor sit amet consectetur adipisicing elit. Similique facere
+      adipisci dolor maxime voluptate unde iste molestias dolore beatae
+      inventore itaque, non, dolorem alias veniam eaque dicta illo minus.
+      Reprehenderit, nesciunt minima. Libero, dolorum possimus. Rerum quas,
+      eveniet, assumenda hic eos ut a impedit incidunt ipsa blanditiis voluptas
+      quasi labore.
+    </p>
+    <div id="color1" class="square"></div>
+    <div id="color2" class="square"></div>
+    <div id="color3" class="square"></div>
+  </body>
+</html>
